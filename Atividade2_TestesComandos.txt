@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+
+  <head>
+   <meta charset="utf-8">
+
+   <title>TestePag1</title>
+
+
+  </head>
+ 
+
+    <body style="background-color:#FFFF00;">
+     <h1>Apresentação Aluno!</h1>
+
+     <!-- <p style="color:silver;" style="text-align=center;">Abaixo vou listar, junto com os estudos
+      da linguagem de marcação html, uma apresentação pessoal!</p> -->
+
+
+
+      <!-- não consegui acrescentar mais de um atributo..-->
+      <p style="color:silver; font-family:courier">
+
+      Abaixo, juntamente de estudos e testes com linguagem de marcação html, vou incluir uma apresentação pessoal!
+      </p>
+
+      <h1 style="font-size:60%; text-align:center"> Sumário:</h1>
+
+      <h2 style="font-size:60%; text-align:center; color:#FF00FF">
+      informações pessoais<br>
+      sobre mim<br>
+      cursos e graduação<br>
+
+      </h2>
+
+
+      <center>
+      <img src="duke.png" width="100" heigth="100" alt="logo java, teste imagem">
+      </center>
+
+
+
+
+    </body>
+
+
+
+</html>
