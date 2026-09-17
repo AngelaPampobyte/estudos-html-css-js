@@ -13,20 +13,23 @@
    var valor1;
    var valor2;
    
-   valor1 = prompt("digite um valor para A");
-   valor2 = prompt("digite um valor para B");
+   var resposta1 = prompt("digite um valor para A");
+   var resposta2 = prompt("digite um valor para B");
+   
+   valor1=resposta1;
+   valor2=resposta2;
    
    var devetrocar = confirm("deseja efetuar a troca de valores?");
    
   
  
         if (devetrocar == true){
-         valor2=valor1;
-		 valor1=valor2;
+         valor2=resposta1;
+		 valor1=resposta2;
  
         }
    
-    alert("A ="+valor1+" E B ="+valor2);
+    alert("A = "+valor1+" E B = "+valor2);
 
 	
  
