@@ -2,12 +2,22 @@
 
   <html lang="pt-br">
   
+  
+  
+  <!-- Angela -->
   <head>
   <meta charset="utf-8">
  
   <title>Login</title> 
 
-
+   <style type="text/css">
+   
+   th{
+   color:blue;
+   font-family:verdana
+   
+   }
+   </style>
 
   </head>
 
@@ -18,17 +28,25 @@
 	 <table border="1">
 	 
 	 <tr>
-	 <th colspan="2" align="right">Usuário</th>
-	 <td colspan="2" align="left"><input type="text" name="txt_user" id="txt_user" value=" ">
+	 <th  width="150" align="right">Usuário:</th>
+	 <td  width="290" align="left"><input type="text" name="txt_user" id="txt_user" value=" ">
 	
-	 <tr>
-	 <th rowspan="2" colspan="1">Senha</th>
-	 <td align="left"><input type="password" name="ps_senha" id="ps_senha" value="">
 	 </tr>
-	
-	<tr>
 	 
-	 <td><submit name="btn_autenticar" value="autenticar"></td> 
+	 <th  rowspan="1" align="right">Senha:</th>
+	 
+	 
+	 
+	 <td colspan="1" align="left"><input type="password" maxlength="8" name="ps_senha" id="ps_senha" value="">
+	 
+	 </tr>
+
+	 <tr>
+	 <td> </td>
+	 <td colspan=""><input type="submit" name="btn_autenticar" value="autenticar"> 
+	 <input type="reset" name="btn_reset" value="sair"></td>
+	 
+	
 	 </tr>
 	 
 	 </table>
